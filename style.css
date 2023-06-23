@@ -64,13 +64,13 @@ hr{
 }  
 
 .copyright{
-    text-align: center;    
+  display: flex;
+  justify-content: center;
 }
-
 /**telemovel e tablet**/
 @media (max-width: 680px) {
     .conteudo {
-        grid-template-rows: auto auto auto;
+        width: auto;
       }
       
       .titulo-topo > * {
@@ -81,7 +81,7 @@ hr{
         width: 100%;
       }
       
-      .teste {
+      .teste{
         bottom: 300px;
         right: 0;
       }
@@ -98,11 +98,7 @@ hr{
       
       .footer {
         flex-wrap: wrap;
+        flex-direction: column;
         gap: 30px;
       }
-      .copyright {
-        text-align: center;
-     }
-        
 }
-
