@@ -100,4 +100,9 @@ hr{
         flex-wrap: wrap;
         gap: 30px;
       }
+      .copyright {
+        text-align: center;
+     }
+        
 }
+
